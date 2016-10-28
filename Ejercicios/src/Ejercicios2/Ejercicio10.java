@@ -2,7 +2,7 @@ package Ejercicios2;
 
 import java.util.Scanner;
 
-public class Ejercicio6 { //class
+public class Ejercicio10 { //class
 
 	public static void main(String[] args) { //main
 		Scanner teclado = new Scanner(System.in);
@@ -12,12 +12,11 @@ public class Ejercicio6 { //class
 
 		System.out.println("dame un numero:");
 		n=teclado.nextInt();
-		for (int i=0; i>=n; i++) {
-
-			n=i+1;
-
-			//System.out.printf ("%3d \n", i);
-		}//for
-		System.out.println (n);
+		
+		if (n % 2==0){
+			System.out.println("El número es par");
+		}else 
+			System.out.println("El número es impar");	
+		
 	}//main
 } //class
