@@ -23,11 +23,11 @@ public class Ejercicio2 {
 				
 		if ('A'<=letra&&'Z'>=letra ||'Ñ'==letra)
 			mayusculas=mayusculas++;
-		mayuscula=mayuscula+ "    ";
+		mayuscula=mayusculas+ "    ";
 
 		if ('a'<=letra&&'z'>=letra ||'ñ'==letra)
 			minusculas=minusculas++;
-		minuscula=minuscula+"  ";
+		minuscula=minusculas+ "  ";
 
 
 		System.out.println("Letras mayusculas "+mayuscula);
